@@ -19,14 +19,10 @@ hr{
 }
 
 .icons{
-	display:flex;
-	flex-direction:column;
-	width: 25%;
-	height:25%;
-	margin-left: auto;
-	margin-top:auto;
-	margin-bottom:auto;
-	text-decoration:none;
+    width: 65px;
+    height: auto;
+	margin-left:5px;
+	margin-right:5px;
 }
 
 .sidebar{
@@ -113,6 +109,15 @@ hr{
 	width: 75%;
 }
 
+.hiperlinks{
+	display:flex;
+	justify-content:center;
+}
+
+.hiperlinks a{
+    display:inline-block;
+}
+
 .game{
 	display:none;
 }
@@ -130,5 +135,29 @@ hr{
 }
 
 #style3D:checked ~ .games .style3D{
+	display:block;
+}
+
+#style2D:checked ~ .games .style2D{
+	display:block;
+}
+
+#juegoserio:checked ~ .games .juegoserio{
+	display:block;
+}
+
+#gamejam:checked ~ .games .gamejam{
+	display:block;
+}
+
+#aprendizaje:checked ~ .games .aprendizaje{
+	display:block;
+}
+
+#PSX:checked ~ .games .PSX{
+	display:block;
+}
+
+#pixelart:checked ~ .games .pixelart{
 	display:block;
 }
