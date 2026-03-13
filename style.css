@@ -40,8 +40,8 @@ hr{
 #logo{
 	display:flex;
 	flex-direction:column;
-	width: 30%;
-	height:30%;
+	width: 100px;
+	height:auto;
 	margin-top:auto;
 	margin-bottom:auto;
 	text-decoration:none;
