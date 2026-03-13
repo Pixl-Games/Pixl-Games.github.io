@@ -41,6 +41,16 @@ hr{
 	align-items: center;
 }
 
+#logo{
+	display:flex;
+	flex-direction:column;
+	width: 30%;
+	height:30%;
+	margin-top:auto;
+	margin-bottom:auto;
+	text-decoration:none;
+}
+
 .sidebarBTT{
 	margin-top: 9%;
 	width: 75%;
@@ -103,6 +113,22 @@ hr{
 	width: 75%;
 }
 
-#contacto{
-	margin-top: auto;
+.game{
+	display:none;
+}
+
+#shooter:checked ~ .games .shooter{
+	display:block;
+}
+
+#horror:checked ~ .games .horror{
+	display:block;
+}
+
+#platformer:checked ~ .games .platformer{
+	display:block;	
+}
+
+#style3D:checked ~ .games .style3D{
+	display:block;
 }
